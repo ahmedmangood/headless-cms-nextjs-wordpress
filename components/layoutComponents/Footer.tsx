@@ -4,7 +4,7 @@ import { mainMenu, contentMenu } from "@/menu.config";
 import { Section, Container } from "@/components/craft";
 import Balancer from "react-wrap-balancer";
 
-import Logo from "@/public/logo.svg";
+import Logo from "@/public/myLogo.png";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -17,7 +17,6 @@ export const Footer = () => {
         <Container className="grid md:grid-cols-[1.5fr_0.5fr_0.5fr] gap-12">
           <div className="flex flex-col gap-6 not-prose">
             <Link href="/">
-              <h3 className="sr-only">brijr/components</h3>
               <Image
                 src={Logo}
                 alt="Logo"
@@ -58,8 +57,8 @@ export const Footer = () => {
         <Container className="border-t not-prose flex flex-col md:flex-row md:gap-2 gap-6 justify-between md:items-center">
           <ThemeToggle />
           <p className="text-muted-foreground">
-            © <a href="https://9d8.dev">9d8</a>. All rights reserved.
-            2024-present.
+            © <a href="https://9d8.dev">ahmed_mangood</a>. All rights reserved.
+            2024.
           </p>
         </Container>
       </Section>

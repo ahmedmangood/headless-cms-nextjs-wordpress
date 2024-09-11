@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Button } from "../ui/button";
 import { MobileNav } from "../nav/mobile-nav";
 import { mainMenu } from "@/menu.config";
-import Logo from "@/public/logo.svg";
+import Logo from "@/public/myLogo.png";
 import { cn } from "@/lib/utils";
 
 export const Nav = ({ className, children, id }: NavProps) => {
@@ -25,7 +25,7 @@ export const Nav = ({ className, children, id }: NavProps) => {
           className="hover:opacity-75 transition-all flex gap-2 items-center"
           href="/"
         >
-          <h2 className="sr-only">next-wp starter</h2>
+          <h2 className="sr-only">my blog</h2>
           <Image
             src={Logo}
             alt="Logo"
@@ -46,7 +46,7 @@ export const Nav = ({ className, children, id }: NavProps) => {
             ))}
           </div>
           <Button asChild className="hidden sm:flex">
-            <Link href="https://github.com/9d8dev/next-wp">Get Started</Link>
+            <Link href="tel:00000000">Contact Me</Link>
           </Button>
           <MobileNav />
         </div>
